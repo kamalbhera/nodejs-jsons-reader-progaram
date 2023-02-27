@@ -1,0 +1,70 @@
+{
+  "page_description": "$$short_title$$",
+  "produitSlices": [
+    {
+      "key": "articleComponent$a4e92d26-78a7-48af-ba79-defa367ba273",
+      "value": {
+        "repeat": [{}],
+        "non-repeat": {
+          "slice_title": "$$page_title$$",
+          "background_color": "grisClair",
+          "h2_alignment": "left",
+          "article_content": [
+            {
+              "type": "heading2",
+              "content": {
+                "text": "$$short_title$$",
+                "spans": []
+              }
+            },
+            { "type": "paragraph", "content": { "text": "", "spans": [] } },
+            {
+              "content": { "spans": [], "text": "" },
+              "type": "image",
+              "data": {
+                "origin": {
+                  "id": "Y49SmRIAAK9lX2Jj",
+                  "url": "$$banner_url$$",
+                  "width": 994,
+                  "height": 570
+                },
+                "width": 994,
+                "height": 570,
+                "url": "$$banner_url$$?auto=compress,format",
+                "edit": { "background": "#fff", "zoom": 1.0, "crop": { "x": 0, "y": 0 } },
+                "credits": null,
+                "alt": "$$banner_alt$$",
+                "provider": "imgix",
+                "linkTo": null
+              },
+              "label": null,
+              "direction": null
+            },
+            { "type": "paragraph", "content": { "text": "", "spans": [] } }
+          ]
+        }
+      }
+    },
+    {
+      "key": "articleComponent$5f313135-a332-4755-b590-18c64d1177cb",
+      "value": {
+        "repeat": [{}],
+        "non-repeat": {
+          "normal_text_alignment": "left",
+          "h2_alignment": "left",
+          "article_content": ["$$article_text$$"]
+        }
+      }
+    }
+  ],
+  "title": "$$page_title$$",
+  "description": "$$page_description$$",
+  "uid": "blog.$$category_slug$$.$$uid$$",
+  "slug": "/blog/$$category_slug$$/$$uid$$",
+  "category": "$$category_slug$$",
+  "contentoTitle": "$$short_title$$",
+  "type": "article_blog",
+  "tags": [],
+  "lang": "en-us",
+  "grouplang": "Y-0DiBIAACkAojN8"
+}
